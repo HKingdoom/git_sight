@@ -44,3 +44,7 @@ for i in range(1,n+1):
      ***
     *****
 '''
+n = int(input('输入行数：'))
+for i in range(1,n+1):
+    j = n-i
+    print(' '*j+'*'*(2*i-1))
