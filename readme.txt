@@ -8,7 +8,8 @@ Git指令：
         git log   查看版本历史记录
         git reset --hard HEAD^ 回退到上一个版本
         git reset --hard HEAD^^ 回退到上上一个版本
-        git reset HEAD <filename> 把暂存区的修改撤销掉，重新放回工作区
+        git reset HEAD <filename>  把暂存区的修改撤销掉，重新放回工作区
+        git checkout -- <filename> 把文件在工作区的修改全部撤销掉
         如果往上100个版本，写成HEAD~100。
         git reset --hard <commit前几位> 回到未来的某个版本
         git reflog  记录每一次命令
